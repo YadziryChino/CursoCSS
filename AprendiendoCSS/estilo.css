@@ -1,0 +1,66 @@
+/*selector {
+	propiedad: valor ;
+}
+*/
+
+
+*{
+	color: red;
+}
+
+h1{
+	color: blue;
+}
+
+.titulo-h2{
+	color: palevioletred;
+}
+
+#id-element{
+	color:  darkblue;
+}
+
+[rancio="sii"]{
+	color:  dimgrey;
+}
+
+h2 p {
+	color:  black;
+}
+
+.h2-class p {
+	color:  darkgreen;
+}
+b:hover {
+	color:  hotpink;
+}
+
+
+//siguiente tema 
+
+// por cascada se queda en rojo 
+
+h1{
+	color: blue;
+}
+
+h1{
+	color: red;
+}
+
+
+// Por jerarquia  se queda en azul
+
+
+h1{
+	color: blue !important;
+}
+h1{
+	color: red;
+}
+
+//parte dos 
+
+.contact-from__input--active {
+	color: skyblue;
+}
